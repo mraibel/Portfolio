@@ -38,7 +38,7 @@ export default function Navbar({ section, setSection, setCurrentNav }) {
             </div>
             <div className="h-full flex flex-row-reverse items-center">
                 <Tooltip
-                    content="Proyectos y Habilidades"
+                    content="Proyectos"
                     positioning={{ placement: "right" }}
                     openDelay={0}
                     closeDelay={0}

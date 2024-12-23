@@ -41,9 +41,11 @@ export default function Home() {
   return (
     <>
       <Navbar section={section} setSection={setSection} setCurrentNav={setCurrentNav} />
-      <Profile />
-      <Projects />
-      <Contact />
+      <div className="ml-[200px]">
+        <Profile />
+        <Projects />
+        <Contact />
+      </div>
     </>
   )
 }
