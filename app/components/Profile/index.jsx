@@ -33,7 +33,7 @@ export default function Profile() {
             {/* Imagen de perfil */}
             <div className="rounded-full overflow-hidden mb-8 shadow-lg">
                 <img
-                    src="/perfil.jpg"
+                    src="/profile.jpeg"
                     alt="Imagen de perfil"
                     className="w-40 h-40 md:w-64 md:h-64 object-cover"
                 />

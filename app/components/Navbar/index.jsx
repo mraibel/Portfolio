@@ -66,7 +66,7 @@ export default function Navbar({ section, setSection, setCurrentNav }) {
                         width={150}
                         height={150}
                         alt="esfera3"
-                        onClick={() => handleSection(3, 1910)}
+                        onClick={() => handleSection(3, 2100)}
                     />
                 </Tooltip>
             </div>

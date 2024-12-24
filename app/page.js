@@ -40,8 +40,10 @@ export default function Home() {
 
   return (
     <>
-      <Navbar section={section} setSection={setSection} setCurrentNav={setCurrentNav} />
-      <div className="ml-[200px]">
+      <div className="hidden lg:flex">
+        <Navbar section={section} setSection={setSection} setCurrentNav={setCurrentNav} />
+      </div>
+      <div className="ml-[0px] lg:ml-[300px]">
         <Profile />
         <Projects />
         <Contact />
